@@ -1003,6 +1003,15 @@ td:first-child { white-space: nowrap; }
 .peace-table th:first-child, .peace-table td:first-child { width: 60%; }
 .peace-table th:last-child, .peace-table td:last-child { width: 40%; }
 
+.half-table { table-layout: fixed; }
+.half-table th, .half-table td { width: 50%; }
+.half-table td span {
+    display: block;
+    margin-top: .3em;
+    font-size: .82em;
+    color: var(--muted);
+}
+
 /* 본문 이미지 */
 .doc-figure {
     margin: 0 0 2em;

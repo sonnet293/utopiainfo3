@@ -648,10 +648,39 @@ button {
     color: var(--heading);
 }
 
-.sound-toggle--floating {
+.bar-actions {
+    display: flex;
+    align-items: center;
+}
+
+.bar-actions--floating {
     position: absolute;
     top: 12px;
     right: var(--gutter);
+}
+
+.band-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 44px;
+    min-height: 44px;
+    color: var(--muted);
+    transition: color .25s;
+}
+
+.band-link:hover {
+    color: var(--heading);
+}
+
+.band-link svg {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: currentColor;
+    stroke-width: 3.2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
 }
 
 .scroll-progress {

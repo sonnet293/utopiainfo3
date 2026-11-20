@@ -1034,6 +1034,7 @@ td:first-child { white-space: nowrap; }
 
 .half-table { table-layout: fixed; }
 .half-table th, .half-table td { width: 50%; }
+.half-table td:first-child { white-space: normal; }
 .half-table td span {
     display: block;
     margin-top: .3em;

@@ -1003,6 +1003,20 @@ td:first-child { white-space: nowrap; }
 .peace-table th:first-child, .peace-table td:first-child { width: 60%; }
 .peace-table th:last-child, .peace-table td:last-child { width: 40%; }
 
+/* 본문 이미지 */
+.doc-figure {
+    margin: 0 0 2em;
+    border: 1px solid var(--line);
+    background: var(--surface);
+    overflow: hidden;
+}
+
+.doc-figure img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
 /* 콜아웃 */
 .note {
     margin: 2em 0;
